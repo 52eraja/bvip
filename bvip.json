@@ -1,0 +1,25 @@
+{
+  "sites": [
+    {
+      "key": "布鲁斯剧库",
+      "name": "⚡️布鲁斯剧库",
+      "type": 0,
+      "api": "https://bvip.one/api.php/provide/vod/?ac=list",
+      "playUrl": "https://vip.zykbf.com/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "阿里Token"
+    }
+  ],
+  "spider": "https://bvip.one"
+}
