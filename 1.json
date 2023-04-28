@@ -1,18 +1,8 @@
 {"spider": "https://jihulab.com/klcb2010/tvbox/-/raw/master/jar/custom_spider.jar;md5;39bab949d9f60a43f46bc63b6bdcbeba",
  "sites":[
-{"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[🍋]","type":3,"api":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/drpy2.min.js","ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/drpy.js"},
-{"key":"bili","name":"B站 | Bili[🍏]","type":3,"api":"csp_Bili","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/音乐演唱.json"},
-{"key":"drpy_js_我的哔哩","name":"我的哔哩[🍉]","type":3,"api":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/drpy2.min.js","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/我的哔哩.js"},
-{"key":"AList","name":"网盘 | Alist[jar]","type":3,"api":"csp_AList","changeable":0,"ext":"https://v.bvip.one/alist.json"},
 {"key":"WebDAV","name":"网盘 | WebDAV[jar]","type":3,"api":"csp_WebDAV","searchable":1,"filterable":1,"changeable":0,"ext":"https://v.bvip.one/w.json"},
-{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","changeable":0,"ext":"https://v.bvip.one/alist.json"},
-{"key":"易搜","name":"阿里 | 易搜","type":3,"api":"csp_YiSo","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/token.txt"},
-{"key":"盘搜","name":"阿里 | 盘搜","type":3,"api":"csp_PanSou","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/token.txt"},
-{"key":"UP云搜","name":"阿里 | UP云搜","type":3,"api":"csp_UpYun","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/token.txt"},
-{"key":"找資源","name":"阿里 | 找資源","type":3,"api":"csp_Zhaozy","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/token.txt"},
 {"key":"drpy_js_低端","name":"影视 | 低端[🌽]","type":3,"api":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/drpy2.min.js","ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/ddys.js"},
 {"key":"Live","name":"影视直播","type":3,"api": "csp_Live","ext":"2000"},
-{"key": "push_agent","name": "阿里 | 推送","type": 3,"api": "csp_Push","ext": "./lib/token.txt"}],
 "lives":[{"name":"太阳","type":0,"url":"http://111.67.196.181/zhibo.txt"}],
 "rules":[
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
