@@ -3,6 +3,7 @@
 {"key":"WebDAV","name":"网盘 | WebDAV[jar]","type":3,"api":"csp_WebDAV","searchable":1,"filterable":1,"changeable":0,"ext":"https://v.bvip.one/w.json"},
 {"key":"drpy_js_低端","name":"影视 | 低端[🌽]","type":3,"api":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/drpy2.min.js","ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/ddys.js"},
 {"key":"Live","name":"影视直播","type":3,"api": "csp_Live","ext":"2000"},
+{"key": "push_agent","name": "阿里 | 推送","type": 3,"api": "csp_Push","ext": "./lib/token.txt"}],
 "lives":[{"name":"太阳","type":0,"url":"http://111.67.196.181/zhibo.txt"}],
 "rules":[
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
