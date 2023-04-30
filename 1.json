@@ -4,6 +4,10 @@
 {"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","changeable":0,"ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/alist.json"},
 {"key":"drpy_js_低端","name":"影视 | 低端[🌽]","type":3,"api":"https://jihulab.com/klcb2010/tvbox/-/raw/master/lib/drpy2.min.js","ext":"https://jihulab.com/klcb2010/tvbox/-/raw/master/js/ddys.js"},
 "rules":[
+	{"key":"Live","name":"影视直播","type":3,"api": "csp_Live","ext":"2000"},
+{"key": "push_agent","name": "阿里 | 推送","type": 3,"api": "csp_Push","ext": "./lib/token.txt"}],
+"lives":[{"name":"太阳","type":0,"url":"http://111.67.196.181/zhibo.txt"}],
+"rules":[
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
 {"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
 {"host":"www.sharenice.net","rule":["douyin.com","/play/"]},
